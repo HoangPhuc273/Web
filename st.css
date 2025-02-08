@@ -1,14 +1,25 @@
-.row.content {height: 1500px}
-    
 .sidenav {
-  background-color: #f1f1f1;
-  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25%;
+  height: 100vh;
+  background-color: #f8f8f8;
+  padding-top: 20px;
+  overflow-y: auto;
+}
+
+.row.content {
+  margin-left: 26%;
 }
 
 @media screen and (max-width: 767px) {
   .sidenav {
+    position: relative;
+    width: 100%;
     height: auto;
-    padding: 15px;
   }
-  .row.content {height: auto;} 
+  .row.content {
+    margin-left: 0;
+  }
 }
