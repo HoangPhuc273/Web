@@ -1,0 +1,150 @@
+/* footer */
+.display-text-14 {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000000;
+}
+
+.btn-1 {
+    padding: 0 28px;
+    background-color: #0396ff;
+    color: white;
+    border: none;
+}
+
+.footer .list-service a {
+    text-decoration: none;
+}
+
+.footer .list-service {
+    list-style: none;
+    padding: 0;
+}
+
+.footer {
+    padding-top: 40px;
+    background-color: white;
+}
+
+.footer .inner-wrap-top .info-footer .logo img {
+    width: 100%;
+    height: 60px;
+    object-fit: contain;
+}
+
+.footer .inner-wrap-top .info-footer .desc {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.footer .inner-wrap-top .info-footer h3 {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.footer .inner-wrap-top .contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .inner-wrap-top .contact .contact-item i {
+    padding-right: 10px;
+}
+
+.footer .inner-wrap-top .contact .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.footer .inner-wrap-top .info-footer .list-service {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.footer .inner-wrap-top .info-footer .list-service a:hover {
+    color: #0396ff;
+}
+
+.footer .inner-wrap-top .info-footer .social-links .socials {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.footer .inner-wrap-top .info-footer .social-links .social {
+    padding: 10px;
+}
+
+.footer .inner-wrap-top .info-footer .social-links .social i {
+    font-size: 24px;
+    color: grey;
+    transition: all 0.4s;
+}
+
+.footer .inner-wrap-top .info-footer .social-links .social:hover i {
+    color: #0396ff;
+}
+
+.footer .inner-wrap-bottom .pay-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.footer .inner-wrap-bottom .pay-list .momo img {
+    width: 50px;
+}
+
+.footer .inner-wrap-bottom .pay-list .pay-item img {
+    max-width: 150px;
+    max-height: 60px;
+}
+
+.footer .copy-right p {
+    font-size: 14px;
+    color: grey;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer .inner-wrap-top .info-footer .list-service a:hover {
+    color: #0396ff;
+}
+
+.footer .inner-wrap-top .info-footer .send-email .input-email {
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 10px 12px;
+    outline: none;
+    font-size: 14px;
+    margin-bottom: 14px;
+    width: 100%;
+}
+
+.footer .inner-wrap-top .info-footer .send-email .btn-subscribe {
+    width: 100%;
+    padding: 14px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: all 0.4s;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.footer .inner-wrap-top .info-footer .send-email .btn-subscribe:hover {
+    color: #fff;
+    background: #3e444a;
+}
+
+/* end footer */
