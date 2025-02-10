@@ -5,6 +5,13 @@
     color: #000000;
 }
 
+.btn-1 {
+    padding: 0 28px;
+    background-color: #0396ff;
+    color: white;
+    border: none;
+}
+
 .footer .list-service a {
     text-decoration: none;
 }
@@ -108,6 +115,36 @@
     color: grey;
     text-align: center;
     margin-top: 20px;
+}
+
+.footer .inner-wrap-top .info-footer .list-service a:hover {
+    color: #0396ff;
+}
+
+.footer .inner-wrap-top .info-footer .send-email .input-email {
+    border: 2px solid grey;
+    border-radius: 4px;
+    padding: 10px 12px;
+    outline: none;
+    font-size: 14px;
+    margin-bottom: 14px;
+    width: 100%;
+}
+
+.footer .inner-wrap-top .info-footer .send-email .btn-subscribe {
+    width: 100%;
+    padding: 14px 0;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+    transition: all 0.4s;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.footer .inner-wrap-top .info-footer .send-email .btn-subscribe:hover {
+    color: #fff;
+    background: #3e444a;
 }
 
 /* end footer */
